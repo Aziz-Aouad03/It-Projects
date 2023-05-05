@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz Menu</title>
+	<link rel="stylesheet" type="text/css" href="description.css">
+  <link rel="icon" href="quiz.png" type="image/x-icon">
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to the Quiz!</h1>
+		<p>1. The quiz flow is sequential<br>
+       2. Points will add up for each correct answer<br>
+       3. Once you select your answer, you can't reselect<br>
+       <span><b>When you answer a question you will not be able to go back to it!</b></span></p>
+		<h2>Test Your Knowledge!</h2>
+		<div class="quiz-buttons">
+			<button id="gene-button">General Info</button>
+			<button id="tech-button">Technology</button>
+      <!-- <button id="history-button">General Questions</button> -->
+		</div>
+	</div>
+</body>
+</html>
+
+  <script>
+
+    
+    const programmingButton = document.getElementById('gene-button');
+    programmingButton.addEventListener('click', () => {
+      window.location.href = 'scriptGeneral.html';
+    });
+    
+    const netflixButton = document.getElementById('tech-button');
+    netflixButton.addEventListener('click', () => {
+      window.location.href = 'scriptTech.html';
+    });
+    
+  
+
+  </script>
+</body>
+</html>

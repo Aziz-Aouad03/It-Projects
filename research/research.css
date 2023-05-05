@@ -1,0 +1,36 @@
+body{
+    margin-bottom: 20px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(90deg, rgb(66, 149, 181) 0%, rgb(13, 195, 219) 8%, rgb(7, 123, 146) 100%);
+   
+
+}
+
+footer{
+    text-align: right;
+    color: black;
+}
+
+
+.image1{
+    width: 500px;
+    height: 450px;
+    box-shadow: 100px;
+    border-radius: 20%;
+    border: 20%;
+    border-color: black;
+    align-self: right;
+    opacity: 80%;
+
+}
+
+.image1:hover, .image1:focus {
+    background-color: rgb(70, 172, 182);
+    box-shadow: rgba(0, 0, 0, 0.60) 0px 5px 30px; 
+    cursor: pointer;
+    transform: scale(1.5)  rotate(360deg);
+}
+
+
